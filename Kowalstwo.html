@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+	<head>
+	<!-- Logo i nazwa -->
+		<title>Kujkon</title>
+		<link rel="shortcut icon" href="file:///C:/Users/Konrad/Desktop/Strona/logo1.svg">
+		
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<style>
+
+	body {
+		font-family: Arial;
+		margin: 0;
+		}
+	
+	.header {
+		color: #C24C12;
+		padding: 100px;
+		background: url(file:///C:/Users/Konrad/Desktop/Strona/gora.jpg) center no-repeat;
+		background-size:cover;	
+		text-align: center;
+		font-size: 30px;
+		font-family: Brush Script MT;
+			}
+	
+
+	.navbar {
+		overflow: hidden;
+		background-color: #A4A89E;
+		position: sticky;
+		position: -webkit-sticky;
+		top: 0;
+		padding: 40px;
+		text-align: center;
+		font-size: 30px;
+		word-spacing: 3cm;	
+			}
+	.menu { 
+		
+		text-decoration: none;
+		color: white;
+			}
+
+
+	.mySlides {display:none;}
+
+
+	.content {
+			padding:20px;
+			background-color: black;
+			text-align: center;
+			font-size: 20px;
+			color: white;
+			
+			}
+			
+	.parallax {
+			  background-image: url("file:///C:/Users/Konrad/Desktop/Strona/scroll.jpg");
+			  min-height: 250px; 
+			  background-attachment: fixed;
+			  background-position: center;
+			  background-repeat: no-repeat;
+			  background-size: cover;}		
+			
+			
+	.pasek {
+			background-color:black;
+			height: 50px;
+			}
+			
+			
+	.content2 {
+			width: top;
+			background-color: #F2F2F2;
+			}
+					.col-1 {
+					float: left;
+					width: 50%;
+					background-color: #F2F2F2;
+					height: 350px;
+					text-align: center;
+							}
+					.col-2 {
+					float: left;
+					width: 50%;
+					background-color: black;
+					height: 350px;
+					text-align: center;
+					color: white;
+							}		
+			
+	.kontakt {
+		background-color: Black;
+		text-align: center;
+		padding:20px;
+		font-size: 20px;
+		color: white;
+		
+		
+		{
+		
+		
+			
+	.mapa {
+		background-color:black;
+
+		}
+		
+	.klauzula {
+		color: black;
+		padding: 100px;
+		background-size:cover;	
+		text-align: center;
+		}
+			
+			
+	
+	
+</style>
+	</head>
+
+	<body>
+	
+		<div class="header">
+		<h1>KUJKON</h1>
+		</div>
+	
+		
+		<div class="navbar">
+			<a href="#galeria" class="menu">Galeria</a>
+			<a href="file:///C:/Users/Konrad/Desktop/Strona/oferta.html" class="menu">Oferta</a>
+			<a href="file:///C:/Users/Konrad/Desktop/Strona/opinie.html" class="menu">Opinie</a>
+			<a href="#kontakt" class="menu">Kontakt </a>
+			<a href="#mapa" class="menu">Mapa</a>
+			
+		</div>
+		
+		<div class="w3-content w3-display-container" id="galeria">
+		<img class="mySlides" src="file:///C:/Users/Konrad/Desktop/Strona/zdj/zdj1.jpg" style="width:100%; max-height: 800px; ">
+		<img class="mySlides" src="file:///C:/Users/Konrad/Desktop/Strona/zdj/zdj2.jpg" style="width:100%;max-height: 800px;">
+		<img class="mySlides" src="file:///C:/Users/Konrad/Desktop/Strona/zdj/zdj3.jpg" style="width:100%;max-height: 800px;">
+		<img class="mySlides" src="file:///C:/Users/Konrad/Desktop/Strona/zdj/zdj4.jpg" style="width:100%;max-height: 800px;">
+		</div>
+		<script>
+			var myIndex = 0;
+			carousel();
+
+			function carousel() {
+ 			 var i;
+ 			 var x = document.getElementsByClassName("mySlides");
+ 			 for (i = 0; i < x.length; i++) {
+			    x[i].style.display = "none";  
+ 			 }
+			  myIndex++;
+			  if (myIndex > x.length) {myIndex = 1}    
+			  x[myIndex-1].style.display = "block";  
+			  setTimeout(carousel, 2000); // Change image every 2 seconds
+			}
+		</script>
+		
+		
+		
+		
+		
+
+		<div class="content">
+			<h1 style="font-family: 'URW Chancery L'; color: #C6A801 ">O KUŹNI</h1>
+			<p>Mamy zaszczyt zaprezentować Państwu niewielką tylko część z bardzo bogatej oferty firmy KUŹNIA JĘDRZEJEWSKICH. Nasza firma istnieje
+			od 1946 roku. Zajmujemy się wykonywaniem szerokiej gamy wyrobów kutych ręcznie według wzorów własnych oraz klientów.</p>
+			<p>Długoletnie doświadczenie, stosowanie tradycyjnej technologii kowalskiej oraz wysoka jakość pozwoliła ugruntować bardzo wysoką pozycję
+			na rynku krajowym jak i zagranicznym. Nasze wyroby znajdują się w wielu krajach świata m.in. Niemczech, Norwegii, Danii, Szwecji, Czechach,
+			Francji a nawet w USA i Kanadzie.</p>
+		
+		</div>
+		
+		
+		<div class="parallax"></div>
+		
+		
+		<div class="pasek">
+		</div>
+		
+		<div class="content2"  id="oferta">
+			<div class="col-1">
+				<h1 style="font-family: 'URW Chancery L'; color: #C6A801 ">Nasza historia czarno na białym</h1>
+				<p>Już na przełomie X i XI wieku, produkowaliśmy narzędzia codziennego użytku jak noże, siekiery, sierpy, topory, groty strzał i włóczni,
+				różnego rodzaju klucze, zamki, okucia i kłódki. Te wszystkie wyroby wychodziły z kuźni naszych przodków . Nawet mennica emitująca
+				monety nie mogła obyć się bez pomocy kowala. Ówczesna metalurgia była jedną z najważniejszych dziedzin gospodarki.</p>
+				<p>We wczesnym średniowieczu nasi przodkowie zmuszeni byli przygotować surowiec we własnym zakresie. 
+				Nieregularne bryły metalu uzyskiwane były w wyniku prymitywnego procesu wytopienia, następnie poddawano je żmudnej obróbce kowalskiej
+				w celu uzyskania surowca produkcyjnego. Pierwszą czynnością było kucie na kowadle rozżarzonego do czerwoności żelaza, nadając mu wymaganą 
+				formę. Ten etap produkcji nie uległ zmianie nawet w szczytowym okresie rozwoju rzemiosła.</p>
+				<p>W połowie XIII wieku rozpoczyna się nowa faza postępu gospodarczego. Przyśpieszeniu ulega proces podziału prac i specjalizacji produkcji,
+				a rzemiosło przekształca się w samodzielną dziedzinę życia gospodarczego. Wzrasta ilość kuźnic produkujących nie tylko surowiec podstawowy, ale i gotowe narzędzia.</p>
+				
+			</div>
+			<div class="col-2">
+				<h1 style="font-family: 'URW Chancery L'; color: #C6A801 ">Nasza historia biało na czarnym</h1>
+				<p>Nowy kapitalistyczny porządek rozsadza dotychczasowe struktury feudalne. Rozwój manufaktur i przemysłu fabrycznego doprowadza do powolnego lecz nieodwracalnego 
+				upadku rzemiosła cechowego. Wprawdzie metalurgia nie słabnie jako gałąź gospodarki, ale produkt mechaniczny wychodzący z manufaktur i fabryk zatraca wzory i cechy artystyczne. 
+				Ostateczny kres sztuki kowalstwa i ślusarstwa artystycznego przenosi wprowadzenie do produkcji żelaza odlewniczego.</p>
+				<p>Nasza konkurencja dzielnie walczyła lecz tylko nieliczni przetrwali do dziś. Nasza firma rozrosła się do wielkich rozmiarów, co pozwoliło ugruntować bardzo wysoką pozycję
+			    na rynku krajowym jak i zagranicznym. </p>
+			</div>
+		
+		<div class="kontakt">
+		<h1 id="kontakt" class="section flex flex-center">Kontakt</h1>
+		<p>Konrad Odrobina</p>
+		<p>ul.Dobrzyńska 152</p>
+		<p>87-820 Kowal</p>
+		<p>tel./fax: +48 578-698-587</p> 
+		<p>tel.: 658-745-788</p>
+		<p>e-mail: kujesetako@kasa.pl</p>
+		</div>
+		
+		
+		
+		
+		<div class="mapa" id="mapa">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d164569.72076959847!2d19.000478525698927!3d52.53198361605153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471c82af9b4371d3%3A0x3dd167c21e316b57!2s87-820%20Kowal!5e0!3m2!1spl!2spl!4v1585607687331!5m2!1spl!2spl" width="100%" height="450" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		</div>
+		
+		<div class="klauzula">
+		<p style="text-align: center">© 2020 Konrad Odrobina. Wszelkie Prawa Zastrzeżone.</p>
+		</div>
+		
+		
+		
+		
+
+	</body>
+
+</html>
